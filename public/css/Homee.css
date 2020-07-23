@@ -1,0 +1,418 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%px;
+    background-color: rgb(4, 84, 87);
+}
+
+
+.html2{
+   /* width: 1200px;*/
+   /* height: 1200px;*/
+    background-color: rgb(207, 204, 201);
+    margin: 0px 50px 0px 50px;
+    }
+
+header{
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    position: fixed;/* 3shan yefdal mawgod m3aia w ana b scroll up/down */
+    width: 100%;
+    
+}
+header h1{
+    justify-content: start;
+font-size: 40px;
+font-family: 'Acme', sans-serif;
+color:rgb(4, 84, 87); ;
+padding-right: 350px;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+nav{
+    justify-content: space-around;
+    margin: 20px;
+    height: 50px;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;  
+}
+ul li a{
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+
+}
+ul li.active a{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+
+}
+#btn{
+    display: none;
+}
+.logo img{
+ 
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 45px;;
+
+
+}
+
+
+.menueContent{
+    background-color: rgb(169, 170, 170);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    padding-top: 120px;/* 3shan yeb2a baien 3shan 3mlt el heade position fixed*/
+
+}
+.menueContent a {
+    flex-direction: row;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 45px;
+    padding-top:5px;
+    transition: 0.6s ease;
+    font-family: 'Acme', sans-serif;
+}
+.menueContent a:hover {
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+.menueContent .active a{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+    padding: 19px;
+    font-size: x-large;
+
+}
+#slider{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size:cover ;
+    margin-bottom: 40px;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+p.cr{
+    text-align: center;
+    align-content: center;
+    color: rgb(4, 84, 87);
+ }   
+ .final i{
+    color: teal;
+    padding: 5px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i{
+    padding: 25px;
+    color: rgb(45, 109, 109);
+    font-size: 25px;
+
+}
+.footer a{
+    color: rgb(57, 58, 58);
+}
+a{
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+}
+/*.cover{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(animal2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}*/
+
+/*changing back ground color*/
+i
+{
+    padding: 2px;
+    color: teal;
+}
+button#change{
+    border-radius: 7px;
+    background-color: rgb(184, 184, 184);
+    font-size: 15px;
+    color: rgb(13, 87, 121);
+    font-family: 'Acme', sans-serif;
+}
+
+/*ending changingcolor*/
+
+
+/*css to background section*/
+#about{
+    margin: 3%;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    padding-right: 0%;
+    margin-top: 0%;
+    background-color: rgb(144, 177, 177);
+
+}
+#about h1{
+
+    font-family: 'Courgette', cursive;
+    border: 2px solid rgb(4, 84, 87);
+    border-width: thick;
+    border-radius: 30px;
+    text-align: center;
+}
+#about h1:hover{
+
+color: white;
+        background-color: rgb(4, 84, 87);
+}
+#about p{
+   
+    font-size: 20px;
+    font-family: 'Inria Serif', serif;
+}
+#about h2{
+    font-family: 'Courgette', cursive;    
+    color:rgb(11, 50, 68);
+}
+.column input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+    /*css to contact*/
+    .container {
+        border-radius: 5px;
+         margin: 3%;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 20px;
+        padding-right: 0%;
+        margin-top: 0%;
+        background-color: rgb(144, 177, 177);
+    
+    }
+    .container h2{
+        font-family: 'Courgette', cursive;
+        font-size: 55px;
+    }
+  .container label{
+      color: cornsilk;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+ 
+  .column input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+ 
+  .column input[type=submit] {
+    background-color: rgb(118, 119, 119);
+    color: rgb(17, 16, 16);
+    padding: 12px 20px;
+    border: none;
+    color: cornsilk;
+    border-radius: 10px;
+    
+  } 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  .column input[type=submit]:hover {
+    background-color: rgb(10, 65, 60);
+    color:white;
+  }
+      .services{
+        margin: 3%;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 20px;
+        padding-right: 0%;
+        margin-top: 0%;
+        background-color: rgb(144, 177, 177);
+      }
+    .services p{
+        font-size: 20px;
+        font-family: 'Inria Serif', serif;
+    
+    }
+    .services h2{
+        font-family: 'Courgette', cursive; 
+        border: 2px solid rgb(4, 84, 87)  ;
+        border-width: thick;/*3shan akhali elborder 3la el klam bas*/
+        border-radius: 30px;
+        text-align: center;
+    }
+    .services h2:hover{
+        color: white;
+        background-color: rgb(4, 84, 87);
+    }
+    .services a{
+        color: rgb(4, 84, 87);
+        transition: 0.6s ease;
+        font-size: 23px;
+        font-family: fantasy
+    
+    }
+    .services a:hover{
+        color: white;
+    
+    }
+   
+  /*to make this page responsive*/
+    @media(max-width:800px){
+        ul{
+            display: none;
+        }
+       
+        body {
+            width: 1100px;
+            margin: 0px;
+        }
+        #about{
+           
+            margin-left: 11px;
+            margin-right: 11px;
+            
+            font-size: x-large;
+
+        }
+        .services{
+            padding: 30px;
+            margin: 1%;
+            font-size: x-large;
+        }
+        .html2{
+            margin: 0px;
+        }
+        .container{
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px;
+            font-size: x-large;
+        }
+        .column{
+            width: 70%;
+        }
+        #about p{
+            font-size: 33px;
+        }
+        .services p{
+            font-size: 33px;
+        }
+        .services h2{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size: 60px;
+        }
+        p{
+            font-size: 35px;
+        }
+        p.cr{
+            font-size: 30px;
+        }
+        header h1{
+            font-size: 28px;
+            margin: auto;
+        }
+        button#change{
+            font-size: 16px;
+            padding: 2px;
+          
+           
+        }
+        
+           .menueContent{
+               padding-top: 105px;
+           }
+        #btn{
+            display: block;
+            border:1px solid gray;
+            border-radius: 2px;
+            font-size: x-large;
+            padding: 25px;
+            margin: 10px
+          }
+          .non-visible{
+            display: none;
+          }
+          .visible{
+            text-align: left;
+            background-color: #8e8d8d;
+            position: absolute;
+            top: 68px;
+            left: 0px;
+            right: 0px;
+            display: flex;
+            flex-direction: row;
+            padding: 40px;
+            justify-content: space-around;
+          }
+          #links a {
+            WIDTH: 8%;
+            font-size: xx-large;
+        }
+    }
+    .services .WB{
+        font-size: xx-large;
+        color: rgb(5, 5, 5);
+        font-style: italic;
+        font-family: 'Courgette', cursive;
+    }
+    .services .AU{
+        text-align: right;
+   font-size: 20px;
+       color: rgb(10, 10, 10);
+    }
+    .menueContent a{
+     font-size: 20px;   
+    }
